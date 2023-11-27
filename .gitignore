@@ -1,0 +1,10 @@
+musdb18_extracted
+musdb18_npz
+musdb18_resized
+results
+models
+__pycache__
+.idea
+*.wav
+*.xml
+*.iml
