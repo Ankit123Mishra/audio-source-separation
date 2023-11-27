@@ -25,7 +25,7 @@ def resample_wav(subset_dir, track_name, filename):
 
 
 def extract_and_resample_files(subset):
-    musdb18 = musdb.DB(root='../musdb18', subsets=[subset])
+    musdb18 = musdb.DB(root='./musdb18', subsets=[subset])
 
     subset_dir = "Dev"
     if subset == "test":

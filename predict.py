@@ -37,7 +37,7 @@ def predict(target, mix_file, save_files=True):
 
     if save_files:
         sf.write(f'./results/{target}_sample_pred.wav', target_pred_waveform, SR)
-        sf.write(f'./results/mix_complete_downsampled.wav', mix_waveform, SR)
+        sf.write(f'./results/mix_sample_downsampled.wav', mix_waveform, SR)
 
     return mix_waveform, target_pred_waveform
 
